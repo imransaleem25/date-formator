@@ -1,0 +1,34 @@
+{
+    "name": "imransaleem/date-formator",
+    "description": "A simple Laravel package for formatting dates",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imran Saleem",
+            "email": "imran.saleem2425@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "nesbot/carbon": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imran\\DateFormator\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imran\\DateFormator\\DateFormatorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
