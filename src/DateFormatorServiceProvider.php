@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imran\DateFormator;
+namespace Imransaleeem\DateFormator;
 
 
 use Illuminate\Support\ServiceProvider;

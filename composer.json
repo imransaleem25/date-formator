@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Imran\\DateFormator\\": "src/"
+            "Imransaleeem\\DateFormator\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Imran\\DateFormator\\DateFormatorServiceProvider"
+                "Imransaleeem\\DateFormator\\DateFormatorServiceProvider"
             ]
         }
     },
